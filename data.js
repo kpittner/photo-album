@@ -1,199 +1,244 @@
 var templates = {};
 
 
-var album1photos = [
-  {
-    title: "Favorites",
-    src: "photos/stars.jpg"
-  },
-  {
-    title: "soccer",
-    src: "photos/soccer.jpeg"
-  },
-  {
-    title: "fish",
-    src: "photos/fish.jpeg"
-  },
-  {
-    title: "music",
-    src: "photos/music.jpg"
-  },
-  {
-    title: "boondock",
-    src: "photos/boondock.jpeg"
-  },
-  {
-    title: "frogs",
-    src: "photos/frogs.jpeg"
-  },
-];
-
 var album2photos = [
   {
-    title: "places",
+    albumName: 'album2',
+    title: "Places",
     src: "photos/worldmap.svg"
   },
   {
-    title: "germany",
+    albumName: 'album2',
+    title: "Germany",
     src: "photos/germany.png"
   },
   {
-    title: "france",
+    albumName: 'album2',
+    title: "France",
     src: "photos/france.jpeg"
   },
   {
-    title: "ireland",
+    albumName: 'album2',
+    title: "Ireland",
     src: "photos/ireland.jpeg"
   },
   {
-    title: "italy",
+    albumName: 'album2',
+    title: "Italy",
     src: "photos/italy.jpeg"
   },
   {
-    title: "australia",
+    albumName: 'album2',
+    title: "Australia",
     src: "photos/australia.jpeg"
   },
 ];
 
 var album3photos = [
   {
-    title: "family",
+    albumName: 'album3',
+    title: "Family",
     src: "photos/IMG_318682884612064.jpeg"
   },
   {
-    title: "luckles",
+    albumName: 'album3',
+    title: "Luckles",
     src: "photos/2012-06-20_22-04-16_66.jpg"
   },
   {
-    title: "dad",
+    albumName: 'album3',
+    title: "Dad",
     src: "photos/2012-10-05_20-53-51_587.jpg"
   },
   {
-    title: "sadie",
+    albumName: 'album3',
+    title: "Sadie and Me",
     src: "photos/20120722_120722.jpg"
   },
   {
-    title: "mustache",
+    albumName: 'album3',
+    title: "I Mustache You a Question",
     src: "photos/IMAG0665.jpg"
   },
   {
-    title: "sisters",
+    albumName: 'album3',
+    title: "Sisters",
     src: "photos/IMAG0260.jpg"
   },
 ];
 
 var album4photos = [
   {
-    title: "bahamas",
+    albumName: 'album4',
+    title: "Atlantis and the Bahamas",
     src: "photos/IMAG0394.jpg"
   },
   {
-    title: "nassau",
+    albumName: 'album4',
+    title: "Nassau",
     src: "photos/IMAG0360.jpg"
   },
   {
-    title: "cave",
+    albumName: 'album4',
+    title: "Cave",
     src: "photos/IMAG0371.jpg"
   },
   {
-    title: "island",
+    albumName: 'album4',
+    title: "Island",
     src: "photos/IMAG0436.jpg"
   },
 ];
 
 var album5photos = [
   {
-    title: "cerulean",
+    albumName: 'album5',
+    title: "Cerulean",
     src: "photos/cerulean.jpg"
   },
   {
-    title: "paints",
+    albumName: 'album5',
+    title: "Paints",
     src: "photos/paints.jpeg"
   },
   {
-    title: "pallet",
+    albumName: 'album5',
+    title: "Pallet",
     src: "photos/pallets.jpeg"
   },
   {
-    title: "shades",
+    albumName: 'album5',
+    title: "Shades",
     src: "photos/shades.jpeg"
   },
   {
-    title: "circles",
+    albumName: 'album5',
+    title: "Circles",
     src: "photos/circles.jpeg"
   },
 ];
 
 var album6photos = [
   {
-    title: "blizzard",
+    albumName: 'album6',
+    title: "Blizzard",
     src: "photos/IMG_318682884612064.jpeg"
   },
   {
-    title: "diablo",
+    albumName: 'album6',
+    title: "Diablo III",
     src: "photos/diablo.jpeg"
   },
   {
-    title: "wow",
+    albumName: 'album6',
+    title: "WOW",
     src: "photos/wow.jpeg"
   },
   {
-    title: "starcraft",
+    albumName: 'album6',
+    title: "StarCraft",
     src: "photos/starcraft.jpeg"
   },
   {
-    title: "hearthstone",
+    albumName: 'album6',
+    title: "Hearthstone",
     src: "photos/hearthstone.jpeg"
   },
 ];
 
+var album1photos = [
+  {
+    albumName: 'album1',
+    title: "Favorites",
+    src: "photos/stars.jpg"
+  },
+  {
+    albumName: 'album1',
+    title: "Soccer",
+    src: "photos/soccer.jpeg"
+  },
+  {
+    albumName: 'album1',
+    title: "Swedish Fish",
+    src: "photos/fish.jpeg"
+  },
+  {
+    albumName: 'album1',
+    title: "Music",
+    src: "photos/music.jpg"
+  },
+  {
+    albumName: 'album1',
+    title: "The Boondock Saints",
+    src: "photos/boondock.jpeg"
+  },
+  {
+    albumName: 'album1',
+    title: "Frogs",
+    src: "photos/frogs.jpeg"
+  }
+]
 
 
-//home page
 templates.home = [
-  "<div class = columns>",
-  "<div class = column1>",
-  "<div class = album1>",
-  "<a href='Favorites'><img src='photos/stars.jpg' alt=''></a>",
-  "<p><a href='#' rel='.home'>Some of my Favorite Things</a></p>",
-  "</div>",
-  "<div class = album4>",
-  "<a href='Bahamas'><img src='photos/IMAG0394.jpg' alt=''></a>",
-  "<p><a href='#' rel='.home'>Atlantis and the Bahamas</a></p>",
-  "</div>",
-  "</div>",
-  "<div class = column2>",
-  "<div class = album2>",
-  "<a href='places'><img src='photos/worldmap.svg' alt=''></a>",
-  "<p><a href='#' rel='.home'>Oh the Places We'll Go</a></p>",
-  "</div>",
-  "<div class = album5>",
-  "<img src='photos/cerulean.jpg' alt=''>",
-  "<p><a href='#' rel='.home'>Cerulean</a></p>",
-  "</div>",
-  "</div>",
-  "<div class = column3>",
-  "<div class = album3>",
-  "<img src='photos/IMG_318682884612064.jpeg' alt=''>",
-  "<p><a href='#' rel='.home'>Family Time</a></p>",
-  "</div>",
-  "<div class = album6>",
-  "<img src='http://cdn.entertainmentfuse.com/media/2014/09/blizzard-entertainment.jpg' alt=''>",
-  "<p><a href='#' rel='.home'>Blizzard Entertainment</a></p>",
+  "<div class='col-lg-4'>",
+  "<div class='<%= albumName %>'",
+  "<a href='Favorites'><img src='<%= src %>' alt=''></a>",
+  "<p><a href='#' rel='.home'><%= title %></a></p>",
   "</div>",
   "</div>"
 ].join("");
 
 templates.album1 = [
-  "<div class = album1>",
-  "<a href='Favorites'><img src='photos/stars.jpg' alt=''></a>",
-  "<p><a href='#' rel='.home'>Some of my Favorite Things</a></p>",
+  "<div class='col-lg-4'>",
+  "<div class = '<%= albumName %>'",
+  "<a href='Favorites'><img src='<%= src %>' alt=''></a>",
+  "<p><a href='#' rel='.home'><%= title %></a></p>",
+  "</div>",
   "</div>"
 ].join("");
 
 templates.album2 = [
-  "<div class = album2>",
-  "<a href='Favorites'><img src='photos/worldmap.svg' alt=''></a>",
-  "<p><a href='#' rel='.home'>Oh the Places We'll Go</a></p>",
+  "<div class='col-lg-4'>",
+  "<div class = '<%= albumName %>'",
+  "<a href='Favorites'><img src='<%= src %>' alt=''></a>",
+  "<p><a href='#' rel='.home'><%= title %></a></p>",
+  "</div>",
+  "</div>"
+].join("");
+
+templates.album3 = [
+  "<div class='col-lg-4'>",
+  "<div class = '<%= albumName %>'",
+  "<a href='Favorites'><img src='<%= src %>' alt=''></a>",
+  "<p><a href='#' rel='.home'><%= title %></a></p>",
+  "</div>",
+  "</div>"
+].join("");
+
+templates.album4 = [
+  "<div class='col-lg-4'>",
+  "<div class = '<%= albumName %>'",
+  "<a href='Favorites'><img src='<%= src %>' alt=''></a>",
+  "<p><a href='#' rel='.home'><%= title %></a></p>",
+  "</div>",
+  "</div>"
+].join("");
+
+templates.album5 = [
+  "<div class='col-lg-4'>",
+  "<div class = '<%= albumName %>'",
+  "<a href='Favorites'><img src='<%= src %>' alt=''></a>",
+  "<p><a href='#' rel='.home'><%= title %></a></p>",
+  "</div>",
+  "</div>"
+].join("");
+
+templates.album6 = [
+  "<div class='col-lg-4'>",
+  "<div class = '<%= albumName %>'",
+  "<a href='Favorites'><img src='<%= src %>' alt=''></a>",
+  "<p><a href='#' rel='.home'><%= title %></a></p>",
+  "</div>",
   "</div>"
 ].join("");

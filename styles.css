@@ -1,27 +1,35 @@
+{
+  display: none;
+}
+
+.active {
+  display: block
+}
+
+
+
+
 header {
   background-color: #3838A1;
-  height: 100px;
+  height: 150px;
   margin-top: -40px;
 }
+
 
 h1 {
   color: #D4D4EA;
   text-align: center;
   font-size: 3em;
-  padding-top:25px;
+  padding-top:50px;
 }
 
-.column1 {
+.container p {
   text-align: center;
-  float: left;
-  width: 33%;
 }
 
 .album1 {
-  border-style: groove;
-  border-color: black;
-  border-width: medium;
-  margin: 50px;
+  padding-left: 150px;
+  padding-bottom: 50px;
 }
 
 .album1 img {
@@ -31,9 +39,6 @@ h1 {
 }
 
 .album4 {
-  border-style: groove;
-  border-color: black;
-  border-width: medium;
   margin: 50px;
 }
 
@@ -43,16 +48,7 @@ h1 {
   width: 250px;
 }
 
-.column2 {
-  text-align: center;
-  display: inline-block;
-  width: 33%;
-}
-
 .album2 {
-  border-style: groove;
-  border-color: black;
-  border-width: medium;
   margin: 50px;
 }
 
@@ -63,9 +59,6 @@ h1 {
 }
 
 .album5 {
-  border-style: groove;
-  border-color: black;
-  border-width: medium;
   margin: 50px;
 }
 
@@ -75,16 +68,7 @@ h1 {
   width: 250px;
 }
 
-.column3 {
-  text-align: center;
-  float: right;
-  width: 34%;
-}
-
 .album3 {
-  border-style: groove;
-  border-color: black;
-  border-width: medium;
   margin: 50px;
 }
 
@@ -95,9 +79,6 @@ h1 {
 }
 
 .album6 {
-  border-style: groove;
-  border-color: black;
-  border-width: medium;
   margin: 50px;
 }
 
@@ -112,8 +93,13 @@ h1 {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 200px;
+  width: 150px;
   background: #3838A1;
+}
+
+.navbar {
+  margin-top: 200px;
+  font-size: 1.5em;
 }
 
 .navbar ul {
