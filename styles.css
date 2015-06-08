@@ -1,0 +1,125 @@
+header {
+  background-color: #3838A1;
+  height: 100px;
+  margin-top: -40px;
+}
+
+h1 {
+  color: #D4D4EA;
+  text-align: center;
+  font-size: 3em;
+  padding-top:25px;
+}
+
+.column1 {
+  text-align: center;
+  float: left;
+  width: 33%;
+}
+
+.album1 {
+  border-style: groove;
+  border-color: black;
+  border-width: medium;
+  margin: 50px;
+}
+
+.album1 img {
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+}
+
+.album4 {
+  border-style: groove;
+  border-color: black;
+  border-width: medium;
+  margin: 50px;
+}
+
+.album4 img {
+  margin-top: 30px;
+  height: 200px;
+  width: 250px;
+}
+
+.column2 {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+}
+
+.album2 {
+  border-style: groove;
+  border-color: black;
+  border-width: medium;
+  margin: 50px;
+}
+
+.album2 img {
+  margin-top: 30px;
+  height: 200px;
+  width: 250px;
+}
+
+.album5 {
+  border-style: groove;
+  border-color: black;
+  border-width: medium;
+  margin: 50px;
+}
+
+.album5 img {
+  margin-top: 30px;
+  height: 200px;
+  width: 250px;
+}
+
+.column3 {
+  text-align: center;
+  float: right;
+  width: 34%;
+}
+
+.album3 {
+  border-style: groove;
+  border-color: black;
+  border-width: medium;
+  margin: 50px;
+}
+
+.album3 img {
+  margin-top: 30px;
+  height: 200px;
+  width: 150px;
+}
+
+.album6 {
+  border-style: groove;
+  border-color: black;
+  border-width: medium;
+  margin: 50px;
+}
+
+.album6 img {
+  margin-top: 30px;
+  height: 200px;
+  width: 250px;
+}
+
+.aside {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 75px;
+  background: #3838A1;
+}
+
+.navbar ul li {
+  float: left;
+  list-style-type: none;
+  text-decoration: none;
+  border-style: double;
+  border-color: black;
+}
