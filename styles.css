@@ -112,14 +112,17 @@ h1 {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 75px;
+  width: 200px;
   background: #3838A1;
 }
 
-.navbar ul li {
+.navbar ul {
   float: left;
   list-style-type: none;
   text-decoration: none;
-  border-style: double;
-  border-color: black;
+}
+
+.navbar li {
+  list-style-type: none;
+  text-decoration: none;
 }

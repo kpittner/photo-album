@@ -5,7 +5,8 @@
   <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-  <script language = "javascript" type="text/javascript" src="photo-album.js"></script>
+  <script src="data.js"></script>
+  <script language = "javascript" type="text/javascript" src="main.js"></script>
   <title>Photo Album</title>
 </head>
 <body>
@@ -14,22 +15,24 @@
   <header>
     <h1>My Photo Album</h1>
   </header>
-  <div class = "home page">
+  <div class = "homepage active">
     <!--home content goes here-->
   </div>
 
   <!--page two and for any album clicks-->
   <div class = "page2">
     <div class = "aside">
-      <nav class = "navbar">
-        <li><a href="home" rel=".home"></a></li>
-        <li><a href="favorites" rel= ".favorites"></a></li>
-        <li><a href="bahamas" rel= ".bahamas"></a></li>
-        <li><a href="places" rel= ".places"></a></li>
-        <li><a href="cerulean" rel= ".cerulean"></a></li>
-        <li><a href="family" rel= ".family"></a></li>
-        <li><a href="blizzard" rel= ".blizzard"></a></li>
-      </nav>
+        <nav class = "navbar">
+          <ul class= "nav nav-pills nav-stacked">
+            <li><a href="home" rel=".home">Home</a></li>
+            <li><a href="favorites" rel= ".favorites">Favorites</a></li>
+            <li><a href="bahamas" rel= ".bahamas">Bahamas</a></li>
+            <li><a href="places" rel= ".places">Places</a></li>
+            <li><a href="cerulean" rel= ".cerulean">Cerulean</a></li>
+            <li><a href="family" rel= ".family">Family</a></li>
+            <li><a href="blizzard" rel= ".blizzard">Blizzard</a></li>
+          </ul>
+        </nav>
     </div>
     <div>
       <div class = column1>
@@ -44,11 +47,11 @@
       </div>
       <div class = column2>
         <div class = album2>
-          <a href="places"><img src="http://images.clipartpanda.com/world-map-clip-art-19671-world-map-svg.svg" alt=""></a>
+          <a href="places"><img src="photos/worldmap.svg" alt=""></a>
           <p><a href="#" rel=".home">Oh the Places We'll Go</a></p>
         </div>
         <div class = album5>
-          <img src="https://s-media-cache-ak0.pinimg.com/236x/62/6d/23/626d235eb610cda324c590dfef0d4c92.jpg" alt="">
+          <img src="photos/cerulean.jpg" alt="">
           <p><a href="#" rel=".home">Cerulean</a></p>
         </div>
       </div>
@@ -68,17 +71,19 @@
 
   <!--album 1 with aside-->
   <div class = "album1page">
-  <div class = "aside">
-    <nav class = "navbar">
-      <li><a href="home" rel=".home"></a></li>
-      <li><a href="favorites" rel= ".favorites"></a></li>
-      <li><a href="bahamas" rel= ".bahamas"></a></li>
-      <li><a href="places" rel= ".places"></a></li>
-      <li><a href="cerulean" rel= ".cerulean"></a></li>
-      <li><a href="family" rel= ".family"></a></li>
-      <li><a href="blizzard" rel= ".blizzard"></a></li>
-    </nav>
-  </div>
+    <div class = "aside">
+      <nav class = "navbar">
+        <ul class= "nav nav-pills nav-stacked">
+          <li><a href="home" rel=".home">Home</a></li>
+          <li><a href="favorites" rel= ".favorites">Favorites</a></li>
+          <li><a href="bahamas" rel= ".bahamas">Bahamas</a></li>
+          <li><a href="places" rel= ".places">Places</a></li>
+          <li><a href="cerulean" rel= ".cerulean">Cerulean</a></li>
+          <li><a href="family" rel= ".family">Family</a></li>
+          <li><a href="blizzard" rel= ".blizzard">Blizzard</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 
 
