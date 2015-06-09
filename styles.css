@@ -27,6 +27,11 @@ h1 {
   text-align: center;
 }
 
+.albumhome {
+  height: 100px;
+  width: 100px;  
+}
+
 .album1 {
   padding-left: 150px;
   padding-bottom: 50px;

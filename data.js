@@ -1,5 +1,38 @@
 var templates = {};
+var albums = {}
 
+var albumhome = [
+  {
+    albumName: 'albumhome',
+    title: "Favorites",
+    src: "photos/stars.jpg"
+  },
+  {
+    albumName: 'albumhome',
+    title: "Bahamas",
+    src: "photos/IMAG0394.jpg"
+  },
+  {
+    albumName: 'albumhome',
+    title: "Places",
+    src: "photos/worldmap.svg"
+  },
+  {
+    albumName: 'albumhome',
+    title: "Cerulean",
+    src: "photos/cerulean.jpg"
+  },
+  {
+    albumName: 'albumhome',
+    title: "Family",
+    src: "photos/IMG_318682884612064.jpeg"
+  },
+  {
+    albumName: 'albumhome',
+    title: "Blizzard",
+    src: "photos/blizzard.jpeg"
+  },
+];
 
 var album2photos = [
   {
@@ -122,7 +155,7 @@ var album6photos = [
   {
     albumName: 'album6',
     title: "Blizzard",
-    src: "photos/IMG_318682884612064.jpeg"
+    src: "photos/blizzard.jpeg"
   },
   {
     albumName: 'album6',
@@ -179,6 +212,13 @@ var album1photos = [
   }
 ]
 
+albums.albumhome = albumhome;
+albums.album1photos = album1photos;
+albums.album2photos = album2photos;
+albums.album3photos = album3photos;
+albums.album4photos = album4photos;
+albums.album5photos = album5photos;
+albums.album6photos = album6photos;
 
 templates.home = [
   "<div class='col-lg-4'>",
