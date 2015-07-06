@@ -25,15 +25,15 @@ var page = {
     console.log( clickedPage );
 
     $('body').on('click','#favorites-button', function(e) {
-      $('home').removeClass('.active');
-      $('#bahamas-button').removeClass('.active');
-      $('#places-button').removeClass('.active');
-      $('#cerulean-button').removeClass('.active');
-      $('#family-button').removeClass('.active');
-      $('#blizzard-button').removeClass('.active');
-      $(this).addClass('.active');
+      e.preventDefault();
+      $('#home').removeClass('activePage');
+      // $('#places-button').removeClass('activePage');
+      // $('#cerulean-button').removeClass('activePage');
+      // $('#family-button').removeClass('activePage');
+      // $('#blizzard-button').removeClass('activePage');
+      $('.container').addClass('activePage');
     });
-    
+
     favorites.forEach(function(el) {
      page.loadTemplate( 'home',el,$('.container'))
     });
