@@ -1,13 +1,10 @@
-{
+.page {
   display: none;
 }
 
 .active {
   display: block
 }
-
-
-
 
 header {
   background-color: #3838A1;
@@ -27,70 +24,100 @@ h1 {
   text-align: center;
 }
 
-.albumhome {
-  height: 100px;
-  width: 100px;  
+.col-lg-4 {
+  width: 33%;
+  height: 350px;
 }
 
-.album1 {
+.homePage {
+  margin-left: 125px;
+  height: 100px;
+  width: 100px;
+}
+
+.homePage img {
+  margin-top: 30px;
+  height:270px;
+  width: 270px;
+}
+
+.places {
+  margin-left: 125px;
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+
+.places img {
+  margin-top: 30px;
+  height:270px;
+  width: 270px;
+}
+
+.favorites {
   padding-left: 150px;
   padding-bottom: 50px;
+  margin-left: 125px;
+  height: 100px;
+  width: 100px;
 }
 
-.album1 img {
+.favorites img {
   margin-top: 30px;
-  height: 200px;
-  width: 200px;
+  height:270px;
+  width: 270px;
 }
 
-.album4 {
+.bahamas {
   margin: 50px;
+  margin-left: 125px;
+  height: 100px;
+  width: 100px;
 }
 
-.album4 img {
+.bahamas img {
   margin-top: 30px;
-  height: 200px;
-  width: 250px;
+  height:270px;
+  width: 270px;
 }
 
-.album2 {
+.cerulean {
   margin: 50px;
+  margin-left: 125px;
+  height: 100px;
+  width: 100px;
 }
 
-.album2 img {
+.cerulean img {
   margin-top: 30px;
-  height: 200px;
-  width: 250px;
+  height:270px;
+  width: 270px;
 }
 
-.album5 {
+.family {
   margin: 50px;
+  margin-left: 125px;
+  height: 100px;
+  width: 100px;
 }
 
-.album5 img {
+.family img {
   margin-top: 30px;
-  height: 200px;
-  width: 250px;
+  height:270px;
+  width: 270px;
 }
 
-.album3 {
+.blizzard {
   margin: 50px;
+  margin-left: 125px;
+  height: 100px;
+  width: 100px;
 }
 
-.album3 img {
+.blizzard img {
   margin-top: 30px;
-  height: 200px;
-  width: 150px;
-}
-
-.album6 {
-  margin: 50px;
-}
-
-.album6 img {
-  margin-top: 30px;
-  height: 200px;
-  width: 250px;
+  height:270px;
+  width: 270px;
 }
 
 .aside {

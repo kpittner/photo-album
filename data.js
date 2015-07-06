@@ -1,224 +1,224 @@
 var templates = {};
 var albums = {}
 
-var albumhome = [
+var homePage = [
   {
-    albumName: 'albumhome',
+    albumName: 'homePage',
     title: "Favorites",
     src: "photos/stars.jpg"
   },
   {
-    albumName: 'albumhome',
+    albumName: 'homePage',
     title: "Bahamas",
     src: "photos/IMAG0394.jpg"
   },
   {
-    albumName: 'albumhome',
+    albumName: 'homePage',
     title: "Places",
     src: "photos/worldmap.svg"
   },
   {
-    albumName: 'albumhome',
+    albumName: 'homePage',
     title: "Cerulean",
     src: "photos/cerulean.jpg"
   },
   {
-    albumName: 'albumhome',
+    albumName: 'homePage',
     title: "Family",
     src: "photos/IMG_318682884612064.jpeg"
   },
   {
-    albumName: 'albumhome',
+    albumName: 'homePage',
     title: "Blizzard",
     src: "photos/blizzard.jpeg"
   },
 ];
 
-var album2photos = [
+var places = [
   {
-    albumName: 'album2',
+    albumName: 'places',
     title: "Places",
     src: "photos/worldmap.svg"
   },
   {
-    albumName: 'album2',
+    albumName: 'places',
     title: "Germany",
     src: "photos/germany.png"
   },
   {
-    albumName: 'album2',
+    albumName: 'places',
     title: "France",
     src: "photos/france.jpeg"
   },
   {
-    albumName: 'album2',
+    albumName: 'places',
     title: "Ireland",
     src: "photos/ireland.jpeg"
   },
   {
-    albumName: 'album2',
+    albumName: 'places',
     title: "Italy",
     src: "photos/italy.jpeg"
   },
   {
-    albumName: 'album2',
+    albumName: 'places',
     title: "Australia",
     src: "photos/australia.jpeg"
   },
 ];
 
-var album3photos = [
+var family = [
   {
-    albumName: 'album3',
+    albumName: 'family',
     title: "Family",
     src: "photos/IMG_318682884612064.jpeg"
   },
   {
-    albumName: 'album3',
+    albumName: 'family',
     title: "Luckles",
     src: "photos/2012-06-20_22-04-16_66.jpg"
   },
   {
-    albumName: 'album3',
+    albumName: 'family',
     title: "Dad",
     src: "photos/2012-10-05_20-53-51_587.jpg"
   },
   {
-    albumName: 'album3',
+    albumName: 'family',
     title: "Sadie and Me",
     src: "photos/20120722_120722.jpg"
   },
   {
-    albumName: 'album3',
+    albumName: 'family',
     title: "I Mustache You a Question",
     src: "photos/IMAG0665.jpg"
   },
   {
-    albumName: 'album3',
+    albumName: 'family',
     title: "Sisters",
     src: "photos/IMAG0260.jpg"
   },
 ];
 
-var album4photos = [
+var bahamas = [
   {
-    albumName: 'album4',
+    albumName: 'bahamas',
     title: "Atlantis and the Bahamas",
     src: "photos/IMAG0394.jpg"
   },
   {
-    albumName: 'album4',
+    albumName: 'bahamas',
     title: "Nassau",
     src: "photos/IMAG0360.jpg"
   },
   {
-    albumName: 'album4',
+    albumName: 'bahamas',
     title: "Cave",
     src: "photos/IMAG0371.jpg"
   },
   {
-    albumName: 'album4',
+    albumName: 'bahamas',
     title: "Island",
     src: "photos/IMAG0436.jpg"
   },
 ];
 
-var album5photos = [
+var cerulean = [
   {
-    albumName: 'album5',
+    albumName: 'cerulean',
     title: "Cerulean",
     src: "photos/cerulean.jpg"
   },
   {
-    albumName: 'album5',
+    albumName: 'cerulean',
     title: "Paints",
     src: "photos/paints.jpeg"
   },
   {
-    albumName: 'album5',
+    albumName: 'cerulean',
     title: "Pallet",
-    src: "photos/pallets.jpeg"
+    src: "photos/pallet.jpeg"
   },
   {
-    albumName: 'album5',
+    albumName: 'cerulean',
     title: "Shades",
     src: "photos/shades.jpeg"
   },
   {
-    albumName: 'album5',
+    albumName: 'cerulean',
     title: "Circles",
     src: "photos/circles.jpeg"
   },
 ];
 
-var album6photos = [
+var blizzard = [
   {
-    albumName: 'album6',
+    albumName: 'blizzard',
     title: "Blizzard",
     src: "photos/blizzard.jpeg"
   },
   {
-    albumName: 'album6',
+    albumName: 'blizzard',
     title: "Diablo III",
     src: "photos/diablo.jpeg"
   },
   {
-    albumName: 'album6',
+    albumName: 'blizzard',
     title: "WOW",
     src: "photos/wow.jpeg"
   },
   {
-    albumName: 'album6',
+    albumName: 'blizzard',
     title: "StarCraft",
     src: "photos/starcraft.jpeg"
   },
   {
-    albumName: 'album6',
+    albumName: 'blizzard',
     title: "Hearthstone",
     src: "photos/hearthstone.jpeg"
   },
 ];
 
-var album1photos = [
+var favorites = [
   {
-    albumName: 'album1',
+    albumName: 'favorites',
     title: "Favorites",
     src: "photos/stars.jpg"
   },
   {
-    albumName: 'album1',
+    albumName: 'favorites',
     title: "Soccer",
     src: "photos/soccer.jpeg"
   },
   {
-    albumName: 'album1',
+    albumName: 'favorites',
     title: "Swedish Fish",
     src: "photos/fish.jpeg"
   },
   {
-    albumName: 'album1',
+    albumName: 'favorites',
     title: "Music",
     src: "photos/music.jpg"
   },
   {
-    albumName: 'album1',
+    albumName: 'favorites',
     title: "The Boondock Saints",
     src: "photos/boondock.jpeg"
   },
   {
-    albumName: 'album1',
+    albumName: 'favorites',
     title: "Frogs",
     src: "photos/frogs.jpeg"
   }
 ]
 
-albums.albumhome = albumhome;
-albums.album1photos = album1photos;
-albums.album2photos = album2photos;
-albums.album3photos = album3photos;
-albums.album4photos = album4photos;
-albums.album5photos = album5photos;
-albums.album6photos = album6photos;
+albums.homePage = homePage;
+albums.favorites = favorites;
+albums.places = places;
+albums.family = family;
+albums.bahamas = bahamas;
+albums.cerulean = cerulean;
+albums.blizzard = blizzard;
 
 templates.home = [
   "<div class='col-lg-4'>",
